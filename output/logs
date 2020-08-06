@@ -1,0 +1,126 @@
+Pushing image "20190319-111811-258706.bmp" ...
+Pushing image "20190319-111811-758706.bmp" ...
+Pushing image "20190319-111811-508697.bmp" ...
+Pushing image "20190319-111812-008697.bmp" ...
+Pushing image "20190319-111812-258705.bmp" ...
+structureNewCount=0 structureAggregationCount=0 structureFusionCount=0
+Feat 1 : 4099 | Feat 2 : 4149 | Match : 3169 | Filter : 3077
+Feat 1 : 4086 | Feat 2 : 4149 | Match : 2794 | Filter : 2679
+Feat 1 : 4127 | Feat 2 : 4149 | Match : 2480 | Filter : 2318
+structureNewCount=2318 structureAggregationCount=0 structureFusionCount=0
+Feat 1 : 4169 | Feat 2 : 4127 | Match : 3326 | Filter : 3257
+Pushing image "20190319-103834-344888.bmp" ...
+Pushing image "20190319-103833-344893.bmp" ...
+Pushing image "20190319-103834-094882.bmp" ...
+Pushing image "20190319-103833-844987.bmp" ...
+Pushing image "20190319-103833-594895.bmp" ...
+structureNewCount=0 structureAggregationCount=0 structureFusionCount=0
+Feat 1 : 9325 | Feat 2 : 9216 | Match : 4417 | Filter : 3524
+structureNewCount=3524 structureAggregationCount=0 structureFusionCount=0
+Feat 1 : 9098 | Feat 2 : 9325 | Match : 4403 | Filter : 3510
+Feat 1 : 9098 | Feat 2 : 9216 | Match : 3533 | Filter : 2293
+structureNewCount=1495 structureAggregationCount=2356 structureFusionCount=132
+step :      3 | iter :      0 | state 0 | error : 1.06006
+step :      3 | iter :      1 | state 0 | error : 0.0304603
+step :      3 | iter :      2 | state 0 | error : 0.0134353
+step :      3 | iter :      3 | state 0 | error : 0.0208807
+step :      3 | iter :      4 | state 0 | error : 0.00853702
+step :      3 | iter :      5 | state 0 | error : 0.00441614
+step :      3 | iter :      6 | state 0 | error : 0.00292429
+step :      3 | iter :      7 | state 0 | error : 0.00212096
+step :      3 | iter :      8 | state 0 | error : 0.00160908
+step :      3 | iter :      9 | state 0 | error : 0.00115389
+step :      3 | iter :     10 | state 0 | error : 0.00101416
+step :      3 | iter :     11 | state 0 | error : 0.0011667
+step :      3 | iter :     12 | state 0 | error : 0.000877925
+step :      3 | iter :     13 | state 0 | error : 0.000855076
+step :      3 | iter :     14 | state 0 | error : 0.00071359
+step :      3 | iter :     15 | state 0 | error : 0.000669163
+step :      3 | iter :     16 | state 0 | error : 0.000601834
+step :      3 | iter :     17 | state 0 | error : 0.000577739
+step :      3 | iter :     18 | state 0 | error : 0.000481946
+step :      3 | iter :     19 | state 0 | error : 0.000417332
+step :      3 | iter :     20 | state 0 | error : 0.000418932
+Feat 1 : 8803 | Feat 2 : 9098 | Match : 4286 | Filter : 3424
+Feat 1 : 8803 | Feat 2 : 9216 | Match : 3147 | Filter : 1577
+Feat 1 : 8803 | Feat 2 : 9325 | Match : 3440 | Filter : 2158
+structureNewCount=1767 structureAggregationCount=2097 structureFusionCount=278
+step :      4 | iter :      0 | state 1 | error : 0.99526
+step :      4 | iter :      1 | state 1 | error : 0.0198502
+step :      4 | iter :      2 | state 1 | error : 0.018072
+step :      4 | iter :      3 | state 1 | error : 0.0105695
+step :      4 | iter :      4 | state 1 | error : 0.00540479
+step :      4 | iter :      5 | state 1 | error : 0.00216879
+step :      4 | iter :      6 | state 1 | error : 0.00129463
+step :      4 | iter :      7 | state 1 | error : 0.00108312
+step :      4 | iter :      8 | state 1 | error : 0.00128743
+step :      4 | iter :      9 | state 1 | error : 0.00099407
+step :      4 | iter :     10 | state 1 | error : 0.000829582
+step :      4 | iter :     11 | state 1 | error : 0.000733007
+step :      4 | iter :     12 | state 1 | error : 0.000701589
+step :      4 | iter :     13 | state 1 | error : 0.000667447
+step :      4 | iter :     14 | state 1 | error : 0.000628455
+step :      4 | iter :     15 | state 1 | error : 0.00054519
+step :      4 | iter :     16 | state 1 | error : 0.000458409
+step :      4 | iter :     17 | state 1 | error : 0.000447063
+step :      4 | iter :     18 | state 1 | error : 0.000433087
+step :      4 | iter :     19 | state 1 | error : 0.000370726
+step :      4 | iter :     20 | state 1 | error : 0.000362556
+Feat 1 : 8808 | Feat 2 : 8803 | Match : 4138 | Filter : 3250
+Feat 1 : 8808 | Feat 2 : 9216 | Match : 2995 | Filter : 1199
+Feat 1 : 8808 | Feat 2 : 9325 | Match : 3137 | Filter : 1557
+Feat 1 : 8808 | Feat 2 : 9098 | Match : 3361 | Filter : 2109
+structureNewCount=1465 structureAggregationCount=2222 structureFusionCount=416
+step :      5 | iter :      0 | state 1 | error : 0.978791
+step :      5 | iter :      1 | state 1 | error : 0.0130172
+step :      5 | iter :      2 | state 1 | error : 0.00793162
+step :      5 | iter :      3 | state 1 | error : 0.00670877
+step :      5 | iter :      4 | state 1 | error : 0.00220467
+step :      5 | iter :      5 | state 1 | error : 0.00153228
+step :      5 | iter :      6 | state 1 | error : 0.001371
+step :      5 | iter :      7 | state 1 | error : 0.00136123
+step :      6 | iter :      0 | state 4 | error : 0.515474
+step :      6 | iter :      1 | state 4 | error : 0.164866
+step :      6 | iter :      2 | state 4 | error : 0.115613
+step :      6 | iter :      3 | state 4 | error : 0.079245
+step :      6 | iter :      4 | state 4 | error : 0.052807
+step :      6 | iter :      5 | state 4 | error : 0.0354759
+step :      6 | iter :      6 | state 4 | error : 0.0242593
+step :      6 | iter :      7 | state 4 | error : 0.0177481
+step :      6 | iter :      8 | state 4 | error : 0.0126361
+step :      6 | iter :      9 | state 4 | error : 0.00894297
+step :      6 | iter :     10 | state 4 | error : 0.00648363
+step :      6 | iter :     11 | state 4 | error : 0.00513169
+step :      6 | iter :     12 | state 4 | error : 0.00392345
+step :      6 | iter :     13 | state 4 | error : 0.00311473
+step :      6 | iter :     14 | state 4 | error : 0.00255179
+step :      6 | iter :     15 | state 4 | error : 0.00211965
+step :      6 | iter :     16 | state 4 | error : 0.00179935
+step :      6 | iter :     17 | state 4 | error : 0.00157227
+step :      6 | iter :     18 | state 4 | error : 0.00141879
+step :      6 | iter :     19 | state 4 | error : 0.00127578
+step :      6 | iter :     20 | state 4 | error : 0.00115838
+step :      6 | iter :     21 | state 4 | error : 0.00100185
+step :      6 | iter :     22 | state 4 | error : 0.000926487
+step :      6 | iter :     23 | state 4 | error : 0.000841645
+step :      6 | iter :     24 | state 4 | error : 0.000740693
+step :      6 | iter :     25 | state 4 | error : 0.000695988
+step :      6 | iter :     26 | state 4 | error : 0.000624145
+step :      6 | iter :     27 | state 4 | error : 0.000589646
+step :      6 | iter :     28 | state 4 | error : 0.000551979
+step :      6 | iter :     29 | state 4 | error : 0.000468432
+step :      6 | iter :     30 | state 4 | error : 0.000567166
+step :      6 | iter :     31 | state 4 | error : 0.000452166
+step :      6 | iter :     32 | state 4 | error : 0.000427084
+step :      6 | iter :     33 | state 4 | error : 0.000378255
+step :      6 | iter :     34 | state 4 | error : 0.0003643
+step :      6 | iter :     35 | state 4 | error : 0.000336671
+step :      6 | iter :     36 | state 4 | error : 0.000328095
+Pushing image 20190319-103833-344893.bmp ...
+Pushing image 20190319-103833-594895.bmp ...
+Pushing image 20190319-103833-844987.bmp ...
+Pushing image 20190319-103834-094882.bmp ...
+Pushing image 20190319-103834-344888.bmp ...
+step :      3 | iter :      0 | state 5 | error : 0
+step :      4 | iter :      0 | state 5 | error : 0
+step :      5 | iter :      0 | state 5 | error : 0

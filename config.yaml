@@ -1,3 +1,5 @@
+# ------------------------------------------------------------------------------
+
 frontend:
   type: sparse
   image: [root_path]/sfs-framework-example/image
@@ -23,3 +25,78 @@ dense:
 export:
   group: 3
   path: [root_path]/sfs-framework-example/output
+
+# ------------------------------------------------------------------------------
+#
+# frontend:
+#
+#   type:
+#   This can be 'sparse' or 'dense' and is the framework mode. The 'sparse' has
+#   to be computed first.
+#
+#   image:
+#   Path of the image folder.
+#
+#   mask:
+#   Path of the mask image (discarding un-relevant pixel areas).   
+#
+#   scale:
+#   Scale factor of the image. Specifying 0.5 reduce the size of the image by
+#   two.
+#
+#   step:
+#   Image progression step. For example, specifying two leads the framework to
+#   discard one image over two.
+#
+# features:
+#
+#   threshold:
+#   OpenCV AKAZE features detection threshold. Decrease this value leads to
+#   increase the amount of detected features.
+#
+# matching:
+#
+#   range:
+#   Value specifying how many previous images are matched with the one added to
+#   the reconstruction.
+#
+# algorithm:
+#
+#   group:
+#   This value has to be at least three or greater. It is the amount of image,
+#   counting the last one, used to propagate the scale factor as a new image
+#   is added to the reconstruction.
+#
+#   error:
+#   Error value used to stop the algorithm iteration. It is the value, according
+#   to the mean distance between the images, below which the error is considered
+#   sufficiently small.
+#
+#   disparity:
+#   Standard deviation factor. This value indicates to the filtering which
+#   tolerance is applied to keep or remove a link between a 3D point and an
+#   image that sees it.
+#
+#   radius:
+#   This value, factor of the mean distance between the images, fix the maximum
+#   distance a 3D point can be from the images that see it.
+#
+# dense:
+#
+#   disparity:
+#   Filtering force. As most of the image pixels are placed in the 3D space, a
+#   filtering process is applied to keep only inliers. The re-projection error
+#   is considered and applied on the unit sphere using this value as a maximum
+#   tolerance.
+#
+# export
+#
+#   group:
+#   Specify how many images a point has to be seen from to be exported in the
+#   output model.
+#
+#   export:
+#   Framework exportation path.
+#
+# ------------------------------------------------------------------------------
+

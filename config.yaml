@@ -1,0 +1,25 @@
+frontend:
+  type: sparse
+  image: [root_path]/sfs-framework-example/image
+  mask: [root_path]/sfs-framework-example/mask.png
+  scale: 0.5
+  step: 1
+
+features:
+  threshold: 0.0005
+
+matching:
+  range: 5
+
+algorithm:
+  group: 3
+  error: 1e-5
+  disparity: 5
+  radius: 50
+
+dense:
+  disparity: 3.3245e-04
+
+export:
+  group: 3
+  path: [root_path]/sfs-framework-example/output

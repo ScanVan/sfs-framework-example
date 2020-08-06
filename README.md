@@ -1,6 +1,6 @@
 # Overview
 
-This repository holds a small _spherical images_ dataset used as an usage example of the _Structure from Sphere_ framework in [this repository](https://github.com/ScanVan/sfs-framework). Its contains the images dataset, the _YAML_ configuration file needed to run the framework on the image and all the obtained framework result, including the framework logs.
+This repository provides the example dataset of _spherical images_ used to illustrate the _spherical framework_ of the _ScanVan Project_ that deduces three dimensional models from the images. Its contains the images dataset, the _YAML_ configuration file needed to run the framework on the images and all the obtained framework results, including the framework logs.
 
 # ScanVan Project
 
@@ -33,7 +33,57 @@ The following images give an overview of the spherical image dataset content. Th
 </p>
 <br />
 
-This repository offers a reference of the result you should get applying the pipeline of the provided spherical image dataset.
+The following image gives a view of the central spherical camera built during the project and used to produce the dataset of images :
+
+<br />
+<p align="center">
+<img src="https://github.com/ScanVan/sfs-framework/blob/master/doc/camera.jpg?raw=true" width="384">
+<br />
+<i>Central spherical camera prototype</i>
+</p>
+<br />
+
+The five images of this dataset, located in the _image_ directory, are stored in portable network graphic format. The configuration _YAML_ file is located in the root directory and named _config.yaml_. The mask image, provided to the pipeline to discard the camera and vehicle related pixel is located also in the root directory and is named _mask.png_.
+
+The _output_ directory stores all the outputs created by the framework when applied on this dataset, including the logs located in the _logs_ file. For both _sparse_ and _dense_ modes, four files are created in the _output_ directory :
+
+* sparse/dense_constraint.dat
+* sparse/dense_position.xyz
+* sparse/dense_structure.xyz
+* sparse/dense_transformation.dat
+
+The _position_ model file contains the computed position of the images in the frame of the first image. The _structure_ model file contains all the point place during sparse or dense computation. The _structure_ file then contains the model itself.
+
+The _transformation_ file contains the position and orientation of each image, line by line, expressed in the frame of the first camera. Each line contains the name of the image, the position of the image and its orientation matrix. The _constraint_ file contains all the three dimensional points placed during the computation along with their color,
+the amount of image it is seen from and the index of these images, again, line by line.
+
+Finally, in the _dense_ and _sparse_ folders, you will find this four files kept for each step of the framework. Each time an image is added, a copy of these four files is kept and stored in these two folders.
+
+Using the provided images and the provided configuration _YAML_ file, you should obtain the following sparse model :
+
+<br />
+<p align="center">
+<img src="https://github.com/ScanVan/sfs-framework/blob/master/doc/sparse-1.jpg?raw=true" width="384">
+&nbsp;
+<img src="https://github.com/ScanVan/sfs-framework/blob/master/doc/sparse-2.jpg?raw=true" width="384">
+<br />
+<i>Example of sparse model obtain with a sequence of five spherical images</i>
+</p>
+<br />
+
+and the following dense model :
+
+<br />
+<p align="center">
+<img src="https://github.com/ScanVan/sfs-framework/blob/master/doc/dense-1.jpg?raw=true" width="384">
+&nbsp;
+<img src="https://github.com/ScanVan/sfs-framework/blob/master/doc/dense-2.jpg?raw=true" width="384">
+<br />
+<i>Example of dense model obtain with a sequence of five spherical images</i>
+</p>
+<br />
+
+This dataset should allow you to reproduce our results and train you to apply the framework on your own images.
 
 # Copyright and License
 
